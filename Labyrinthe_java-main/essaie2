@@ -1,0 +1,291 @@
+---------------------------------------------------------------------
+| DANS CETTE PARTIE LE JOUEUR GAGNE APRÈS AVOIR ETE DANS UNE CASE    |
+|        PASSAGE QUI LE REPROCHE DE LA SORTIE                        |
+---------------------------------------------------------------------
+
+**SYMBOLES**: 
+
+joueur:   ♜
+mine:	  ☀☀
+sortie:   ▷▷
+entree:   ▶▶
+obstacle: ♣♣
+pierre    ▩▩
+passage:  ↻↻
+bordure:  ░░
+vide:     --
+
+
+veillez entrez le pourcentage des cases entre 3 et 20:
+% de pierres  : 5
+% de mines  : 3
+% de passages  : 3
+% de obstacles  : 8
+veillez entrez les dimensions du plateau 
+  nombre de ligne entre 4 et 26  : 10
+ nombre de colonne 4 et 26  : 10
+Nom du joueur?  : KOKOU
+░░░A░B░C░D░E░F░G░H░I░J░░
+▶▶                   ░A
+░░                    ░B
+░░                    ░C
+░░                    ░D
+░░                    ░E
+░░                    ░F
+░░                    ░G
+░░                    ░H
+░░                    ░I
+░░                    ▷▷
+░░░░░░░░░░░░░░░░░░░░░░░░
+le joueur KOKOU a 5 Pierres
+
+
+Avancer ou lancer une pierre(A/P)  : P
+Choisis une direction (g|d|h|b|hg|bg|hd|bd) : d
+vous avez perdu la pierre à la case (E,J)
+░░░A░B░C░D░E░F░G░H░I░J░░
+▶▶                   ░A
+░░                    ░B
+░░                    ░C
+░░                    ░D
+░░                    ░E
+░░                    ░F
+░░                    ░G
+░░                    ░H
+░░                    ░I
+░░                    ▷▷
+░░░░░░░░░░░░░░░░░░░░░░░░
+le joueur KOKOU a 4 Pierres
+
+
+Avancer ou lancer une pierre(A/P)  : A
+Choisis une direction (g|d|h|b|hg|bg|hd|bd) : d
+░░░A░B░C░D░E░F░G░H░I░J░░
+▶▶-♜                 ░A
+░░                    ░B
+░░                    ░C
+░░                    ░D
+░░                    ░E
+░░                    ░F
+░░                    ░G
+░░                    ░H
+░░                    ░I
+░░                    ▷▷
+░░░░░░░░░░░░░░░░░░░░░░░░
+le joueur KOKOU a 4 Pierres
+
+
+Avancer ou lancer une pierre(A/P)  : A
+Choisis une direction (g|d|h|b|hg|bg|hd|bd) : d
+--
+░░░A░B░C░D░E░F░G░H░I░J░░
+▶▶--↻↻              ░A
+░░                    ░B
+░░                    ░C
+░░                    ░D
+░░                    ░E
+░░                    ░F
+░░                    ░G
+░░                    ░H
+░░  -♜                ░I
+░░                    ▷▷
+░░░░░░░░░░░░░░░░░░░░░░░░
+le joueur KOKOU a 4 Pierres
+
+
+Avancer ou lancer une pierre(A/P)  : P
+Choisis une direction (g|d|h|b|hg|bg|hd|bd) : b
+la pierre a  ateint la bordure  elle est donc perdu 
+░░░A░B░C░D░E░F░G░H░I░J░░
+▶▶--↻↻              ░A
+░░                    ░B
+░░                    ░C
+░░                    ░D
+░░                    ░E
+░░                    ░F
+░░                    ░G
+░░                    ░H
+░░  -♜               ░I
+░░                    ▷▷
+░░░░░░░░░░░░░░░░░░░░░░░░
+le joueur KOKOU a 3 Pierres
+
+
+Avancer ou lancer une pierre(A/P)  : A
+Choisis une direction (g|d|h|b|hg|bg|hd|bd) : b
+░░░A░B░C░D░E░F░G░H░I░J░░
+▶▶--↻↻                ░A
+░░                    ░B
+░░                    ░C
+░░                    ░D
+░░                    ░E
+░░                    ░F
+░░                    ░G
+░░                    ░H
+░░  --                ░I
+░░  -♜                ▷▷
+░░░░░░░░░░░░░░░░░░░░░░░░
+le joueur KOKOU a 3 Pierres
+
+
+Avancer ou lancer une pierre(A/P)  : P
+Choisis une direction (g|d|h|b|hg|bg|hd|bd) : d
+la pierre a atteind la sortie
+░░░A░B░C░D░E░F░G░H░I░J░░
+▶▶--↻↻              ░A
+░░                    ░B
+░░                    ░C
+░░                    ░D
+░░                    ░E
+░░                    ░F
+░░                    ░G
+░░                    ░H
+░░  --                ░I
+░░  -♜                ▷▷
+░░░░░░░░░░░░░░░░░░░░░░░░
+le joueur KOKOU a 2 Pierres
+
+
+Avancer ou lancer une pierre(A/P)  : A
+Choisis une direction (g|d|h|b|hg|bg|hd|bd) : d
+--
+░░░A░B░C░D░E░F░G░H░I░J░░
+▶▶--↻↻              ░A
+░░                    ░B
+░░                    ░C
+░░                    ░D
+░░                    ░E
+░░                    ░F
+░░                    ░G
+░░                    ░H
+░░  --                ░I
+░░  --↻↻-♜            ▷▷
+░░░░░░░░░░░░░░░░░░░░░░░░
+le joueur KOKOU a 2 Pierres
+
+
+Avancer ou lancer une pierre(A/P)  : A
+Choisis une direction (g|d|h|b|hg|bg|hd|bd) : d
+░░░A░B░C░D░E░F░G░H░I░J░░
+▶▶--↻↻              ░A
+░░                    ░B
+░░                    ░C
+░░                    ░D
+░░                    ░E
+░░                    ░F
+░░                    ░G
+░░                    ░H
+░░  --                ░I
+░░  --↻↻---♜          ▷▷
+░░░░░░░░░░░░░░░░░░░░░░░░
+le joueur KOKOU a 2 Pierres
+
+
+Avancer ou lancer une pierre(A/P)  : A
+Choisis une direction (g|d|h|b|hg|bg|hd|bd) : d
+░░░A░B░C░D░E░F░G░H░I░J░░
+▶▶--↻↻              ░A
+░░                    ░B
+░░                    ░C
+░░                    ░D
+░░                    ░E
+░░                    ░F
+░░                    ░G
+░░                    ░H
+░░  --                ░I
+░░  --↻↻-----♜        ▷▷
+░░░░░░░░░░░░░░░░░░░░░░░░
+le joueur KOKOU a 2 Pierres
+
+
+Avancer ou lancer une pierre(A/P)  : A
+Choisis une direction (g|d|h|b|hg|bg|hd|bd) : d
+░░░A░B░C░D░E░F░G░H░I░J░░
+▶▶--↻↻              ░A
+░░                    ░B
+░░                    ░C
+░░                    ░D
+░░                    ░E
+░░                    ░F
+░░                    ░G
+░░                    ░H
+░░  --                ░I
+░░  --↻↻-------♜      ▷▷
+░░░░░░░░░░░░░░░░░░░░░░░░
+le joueur KOKOU a 2 Pierres
+
+
+Avancer ou lancer une pierre(A/P)  : A
+Choisis une direction (g|d|h|b|hg|bg|hd|bd) : d
+░░░A░B░C░D░E░F░G░H░I░J░░
+▶▶--↻↻              ░A
+░░                    ░B
+░░                    ░C
+░░                    ░D
+░░                    ░E
+░░                    ░F
+░░                    ░G
+░░                    ░H
+░░  --                ░I
+░░  --↻↻---------♜    ▷▷
+░░░░░░░░░░░░░░░░░░░░░░░░
+le joueur KOKOU a 2 Pierres
+
+
+Avancer ou lancer une pierre(A/P)  : A
+Choisis une direction (g|d|h|b|hg|bg|hd|bd) : d
+░░░A░B░C░D░E░F░G░H░I░J░░
+▶▶--↻↻                ░A
+░░                    ░B
+░░                    ░C
+░░                    ░D
+░░                    ░E
+░░                    ░F
+░░                    ░G
+░░                    ░H
+░░  --                ░I
+░░  --↻↻-----------♜  ▷▷
+░░░░░░░░░░░░░░░░░░░░░░░░
+le joueur KOKOU a 2 Pierres
+
+
+Avancer ou lancer une pierre(A/P)  : A
+Choisis une direction (g|d|h|b|hg|bg|hd|bd) : d
+░░░A░B░C░D░E░F░G░H░I░J░░
+▶▶--↻↻              ░A
+░░                    ░B
+░░                    ░C
+░░                    ░D
+░░                    ░E
+░░                    ░F
+░░                    ░G
+░░                    ░H
+░░  --                ░I
+░░  --↻↻-------------♜▷▷
+░░░░░░░░░░░░░░░░░░░░░░░░
+le joueur KOKOU a 2 Pierres
+
+
+Avancer ou lancer une pierre(A/P)  : A
+Choisis une direction (g|d|h|b|hg|bg|hd|bd) : d
+
+Vous avez gagné 
+
+
+voici les cases du plateaux
+
+░░░A░B░C░D░E░F░G░H░I░J░░
+▶▶--↻↻----------------░A
+░░--♣♣♣♣------▩▩------░B
+░░☀☀♣♣----------☀☀----░C
+░░----------------▩▩--░D
+░░--☀☀--▩▩♣♣--------▩▩░E
+░░--------------------░F
+░░------♣♣------------░G
+░░------------------♣♣░H
+░░--------↻↻☀☀--------░I
+░░----↻↻--------------▷▷
+░░░░░░░░░░░░░░░░░░░░░░░░
+
+
+voulez vous rejouer ? : 

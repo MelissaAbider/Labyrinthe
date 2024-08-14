@@ -1,0 +1,201 @@
+----------------------------------------------------------------
+| DANS CETTE PARTIE LE JOUEUR PERDS APRÈS EXPLOSION D'UNE MINE |
+----------------------------------------------------------------
+
+**SYMBOLES**: 
+
+joueur:   ♜
+mine:	  ☀☀
+sortie:   ▷▷
+entree:   ▶▶
+obstacle: ♣♣
+pierre    ▩▩
+passage:  ↻↻
+bordure:  ░░
+vide:     --
+
+
+
+
+veillez entrez le pourcentage des cases entre 3 et 20:
+% de pierres  : 3
+% de mines  : 8
+% de passages  : 3
+% de obstacles  : 3
+veillez entrez les dimensions du plateau 
+  nombre de ligne entre 4 et 26  : 7
+ nombre de colonne 4 et 26  : 7
+Nom du joueur?  : KOKOU
+░░░A░B░C░D░E░F░G░░
+▶▶             ░A
+░░              ░B
+░░              ░C
+░░              ░D
+░░              ░E
+░░              ░F
+░░              ▷▷
+░░░░░░░░░░░░░░░░░░
+le joueur KOKOU a 3 Pierres
+
+
+Avancer ou lancer une pierre(A/P)  : A
+Choisis une direction (g|d|h|b|hg|bg|hd|bd) : d
+░░░A░B░C░D░E░F░G░░
+▶▶-♜           ░A
+░░              ░B
+░░              ░C
+░░              ░D
+░░              ░E
+░░              ░F
+░░              ▷▷
+░░░░░░░░░░░░░░░░░░
+le joueur KOKOU a 3 Pierres
+
+
+Avancer ou lancer une pierre(A/P)  : A
+Choisis une direction (g|d|h|b|hg|bg|hd|bd) : d
+░░░A░B░C░D░E░F░G░░
+▶▶---♜         ░A
+░░              ░B
+░░              ░C
+░░              ░D
+░░              ░E
+░░              ░F
+░░              ▷▷
+░░░░░░░░░░░░░░░░░░
+le joueur KOKOU a 3 Pierres
+
+
+Avancer ou lancer une pierre(A/P)  : A
+Choisis une direction (g|d|h|b|hg|bg|hd|bd) : b
+░░░A░B░C░D░E░F░G░░
+▶▶----          ░A
+░░  -♜          ░B
+░░              ░C
+░░              ░D
+░░              ░E
+░░              ░F
+░░              ▷▷
+░░░░░░░░░░░░░░░░░░
+le joueur KOKOU a 3 Pierres
+
+
+Avancer ou lancer une pierre(A/P)  : A
+Choisis une direction (g|d|h|b|hg|bg|hd|bd) : d
+░░░A░B░C░D░E░F░G░░
+▶▶----          ░A
+░░  ---♜        ░B
+░░              ░C
+░░              ░D
+░░              ░E
+░░              ░F
+░░              ▷▷
+░░░░░░░░░░░░░░░░░░
+le joueur KOKOU a 3 Pierres
+
+
+Avancer ou lancer une pierre(A/P)  : A
+Choisis une direction (g|d|h|b|hg|bg|hd|bd) : b
+░░░A░B░C░D░E░F░G░░
+▶▶----          ░A
+░░  ----        ░B
+░░    -♜        ░C
+░░              ░D
+░░              ░E
+░░              ░F
+░░              ▷▷
+░░░░░░░░░░░░░░░░░░
+le joueur KOKOU a 3 Pierres
+
+
+Avancer ou lancer une pierre(A/P)  : A
+Choisis une direction (g|d|h|b|hg|bg|hd|bd) : d
+░░░A░B░C░D░E░F░G░░
+▶▶----          ░A
+░░  ----        ░B
+░░    ---♜     ░C
+░░              ░D
+░░              ░E
+░░              ░F
+░░              ▷▷
+░░░░░░░░░░░░░░░░░░
+le joueur KOKOU a 3 Pierres
+
+
+Avancer ou lancer une pierre(A/P)  : A
+Choisis une direction (g|d|h|b|hg|bg|hd|bd) : b
+░░░A░B░C░D░E░F░G░░
+▶▶----         ░A
+░░  ----        ░B
+░░    ----      ░C
+░░      -♜     ░D
+░░              ░E
+░░              ░F
+░░              ▷▷
+░░░░░░░░░░░░░░░░░░
+le joueur KOKOU a 3 Pierres
+
+
+Avancer ou lancer une pierre(A/P)  : A
+Choisis une direction (g|d|h|b|hg|bg|hd|bd) : d
+░░░A░B░C░D░E░F░G░░
+▶▶----         ░A
+░░  ----        ░B
+░░    ----      ░C
+░░      ---♜   ░D
+░░              ░E
+░░              ░F
+░░              ▷▷
+░░░░░░░░░░░░░░░░░░
+le joueur KOKOU a 3 Pierres
+
+
+Avancer ou lancer une pierre(A/P)  : A
+Choisis une direction (g|d|h|b|hg|bg|hd|bd) : d
+░░░A░B░C░D░E░F░G░░
+▶▶----         ░A
+░░  ----        ░B
+░░    ----      ░C
+░░      -----♜ ░D
+░░              ░E
+░░              ░F
+░░              ▷▷
+░░░░░░░░░░░░░░░░░░
+le joueur KOKOU a 3 Pierres
+
+
+Avancer ou lancer une pierre(A/P)  : A
+Choisis une direction (g|d|h|b|hg|bg|hd|bd) : d
+vous ne pouvez pas arriver dans cette case veillez changé de direction ou la bombarder de pierre; elle a une resitance de3
+░░░A░B░C░D░E░F░G░░
+▶▶----         ░A
+░░  ----        ░B
+░░    ----      ░C
+░░      ---♜♣♣░D
+░░              ░E
+░░              ░F
+░░              ▷▷
+░░░░░░░░░░░░░░░░░░
+le joueur KOKOU a 3 Pierres
+
+
+Avancer ou lancer une pierre(A/P)  : A
+Choisis une direction (g|d|h|b|hg|bg|hd|bd) : b
+
+vous avez perdu , une mine a explosé 
+
+
+voici les cases du plateaux
+
+░░░A░B░C░D░E░F░G░░
+▶▶----------↻↻░A
+░░--------------░B
+░░--------------░C
+░░---------♜♣♣░D
+░░---------☀☀--░E
+░░▩▩-----☀☀--░F
+░░----↻↻-------▷▷
+░░░░░░░░░░░░░░░░░░
+
+
+voulez vous rejouer ? : 
